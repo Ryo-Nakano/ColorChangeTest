@@ -70,7 +70,7 @@ public class ColorChangeTest : MonoBehaviour {
 		}
 	}
 
-	//===Colorをランダムに変更(RGBA指定)
+	//===Colorをランダムに変える関数(RGBA値で指定)
 	void ChangeRandomColor()
 	{
 		Color randomColor = new Color (Random.value, Random.value, Random.value, 1.0f);//ランダムな色取得
